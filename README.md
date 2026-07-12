@@ -7,9 +7,300 @@ The **YOLOv8 Real-Time Object Detection Framework** is a reusable production-gra
 The framework achieved approximately 90% detection accuracy on custom datasets and reduced inference time by approximately 45% through model quantization and TensorRT optimization.
 
 <hr>
-<img width="288" height="341" alt="343104670-afb6ec94-5cde-4cee-974c-b7fff710f892" src="https://github.com/user-attachments/assets/a3d58ee1-21fa-4ab3-bcc2-419e24905b28" />
----
-<img width="384" height="216" alt="object_tracking" src="https://github.com/user-attachments/assets/7f638b83-075a-4559-a855-656897cb0db8" />
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/singlestream_objectdetection_yolo26/README.md"><b>YOLO26</b></a>
+      <a href="https://developer.memryx.com/tutorials/realtime_inf/realtime_od.html">📝</a><br/>
+      <a href="video_inference/singlestream_objectdetection_yolo26/README.md">
+        <img src="video_inference/singlestream_objectdetection_yolo26/assets/objectDetection_yolo26n.png" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>COCO object detection</sub><br/>
+      <sub>Model: YOLO26 (nano)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"   src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/object_detection_yolo11_mxprepost/README.md"><b>YOLO11</b></a>
+      <a href="https://developer.memryx.com/tutorials/realtime_inf/mxprepost.html">📝</a><br/>
+      <a href="video_inference/object_detection_yolo11_mxprepost/README.md">
+        <img src="video_inference/object_detection_yolo11_mxprepost/assets/objectDetection_yolo11s.png" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>COCO object detection with MxPrepost library</sub><br/>
+      <sub>Model: YOLO11 (small)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"   src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/object_detection_yolox/README.md"><b>YoloX</b></a><br/>
+      <a href="video_inference/object_detection_yolox/README.md">
+        <img src="video_inference/object_detection_yolox/assets/yolox.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>COCO object detection</sub><br/>
+      <sub>Model: YoloX (Medium)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"   src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/vehicle_detection/README.md"><b>Vehicle Detection</b></a><br/>
+      <a href="video_inference/vehicle_detection/README.md">
+        <img src="video_inference/vehicle_detection/assets/output.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Vehicle detection</sub><br/>
+      <sub>Model: Vehicle-Detection-0200</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"   src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+  </tr>
+  <!-- new row -->
+  <tr>
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/segmentation_yolov8/README.md"><b>YOLOv8 Segmentation</b></a><br/>
+      <a href="video_inference/segmentation_yolov8/README.md">
+        <img src="video_inference/segmentation_yolov8/assets/segmentation.png" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Instance segmentation</sub><br/>
+      <sub>Model: YOLOv8 Nano Segmentation</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="C++" src="https://img.shields.io/badge/C++-blue" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/pose_estimation_yolov8/README.md"><b>YOLOsv8 Pose</b></a>
+      <a href="https://developer.memryx.com/tutorials/realtime_inf/realtime_pose.html">📝</a><br/>
+      <a href="video_inference/pose_estimation_yolov8/README.md">
+        <img src="video_inference/pose_estimation_yolov8/assets/pose_estimation.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Human pose estimation</sub><br/>
+      <sub>Model: YOLOv8 (Medium)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="C++" src="https://img.shields.io/badge/C++-blue" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+      <img alt="Windows" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="16" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/depth_midas/README.md"><b>MiDaS Depth</b></a>
+      <a href="https://developer.memryx.com/tutorials/realtime_inf/realtime_depth.html">📝</a><br/>
+      <a href="video_inference/depth_midas/README.md">
+        <img src="video_inference/depth_midas/assets/depth.png" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Monocular depth estimation</sub><br/>
+      <sub>Model: MiDaS</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="C++" src="https://img.shields.io/badge/C++-blue" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+      <img alt="Windows" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="16" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/pointcloud_from_depth/README.md"><b>Depth to 3D</b></a><br/>
+      <a href="video_inference/pointcloud_from_depth/README.md">
+        <img src="video_inference/pointcloud_from_depth/assets/point_cloud.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Point cloud from depth</sub><br/>
+      <sub>Model: MiDaS</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+      <img alt="Windows" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="16" />
+    </td>
+  </tr>
+  <!-- new row -->
+  <tr>
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/face_emotion_detection/README.md"><b>Face + Emotion</b></a>
+      <a href="https://developer.memryx.com/tutorials/realtime_inf/realtime_multimodel.html">📝</a><br/>
+      <a href="video_inference/face_emotion_detection/README.md">
+        <img src="video_inference/face_emotion_detection/assets/face_emotion.png" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Face + emotion classification</sub><br/>
+      <sub>Multiple Models</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="C++" src="https://img.shields.io/badge/C++-blue" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/realtime_facelandmark_detection/README.md"><b>Face Landmarks</b></a><br/>
+      <a href="video_inference/realtime_facelandmark_detection/README.md">
+        <img src="video_inference/realtime_facelandmark_detection/assets/sample.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Facial landmark tracking</sub><br/>
+      <sub>Model: BlazeFace & FaceMesh</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/mediapipe_hands/README.md"><b>Mediapipe Hands</b></a><br/>
+      <a href="video_inference/mediapipe_hands/README.md">
+        <img src="video_inference/mediapipe_hands/assets/hand.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Hand landmark tracking</sub><br/>
+      <sub>Models: PalmDet &amp; HandPose</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+      <img alt="Windows" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="16" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/wireframe/README.md"><b>Wireframe</b></a><br/>
+      <a href="video_inference/wireframe/README.md">
+        <img src="video_inference/wireframe/assets/wireframe.png" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Line / wireframe detection</sub><br/>
+      <sub>Model: M-LSD (Large)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+  </tr>
+  <!-- new row -->
+  <tr>
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/traffic_analysis/README.md"><b>Traffic Analysis</b></a><br/>
+      <a href="video_inference/traffic_analysis/README.md">
+        <img src="video_inference/traffic_analysis/assets/example.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Oriented bounding boxes detection</sub><br/>
+      <sub>Model: YOLOv8s-OBB</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/football_cv/README.md"><b>FootballCV</b></a><br/>
+      <a href="video_inference/football_cv/README.md">
+        <img src="video_inference/football_cv/assets/football_cv.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Football Video Analysis</sub><br/>
+      <sub>Models: Yolov8 (small)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+      <img alt="Windows" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="16" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/luggage_counting_yolov8/README.md"><b>Luggage counting</b></a><br/>
+      <a href="video_inference/luggage_counting_yolov8/README.md">
+        <img src="video_inference/luggage_counting_yolov8/assets/luggage_counting.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>COCO object detection</sub><br/>
+      <sub>Model: YOLOv8 (Nano)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/ppe_detection_tracking_yolov8/README.md"><b>PPE Detection</b></a><br/>
+      <a href="video_inference/ppe_detection_tracking_yolov8/README.md">
+        <img src="video_inference/ppe_detection_tracking_yolov8/assets/ppe_detection.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Personal protective equipment detection</sub><br/>
+      <sub>Model: YOLOv8 (Nano)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+  </tr>
+  <!-- new row -->
+  <tr>
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/object_blurring_yolov8/README.md"><b>Object Blurring</b></a><br/>
+      <a href="video_inference/object_blurring_yolov8/README.md">
+        <img src="video_inference/object_blurring_yolov8/assets/object_blurring.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Blur detected persons with YOLOv8</sub><br/>
+      <sub>Model: YOLOv8 (Small)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/object_tracking_yolov8/README.md"><b>Object Tracking</b></a><br/>
+      <a href="video_inference/object_tracking_yolov8/README.md">
+        <img src="video_inference/object_tracking_yolov8/assets/object_tracking.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Number and track objects with YOLOv8 and SuperVision tracking</sub><br/>
+      <sub>Model: YOLOv8 (Small)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/realtime_multiface_recognition/README.md"><b>Multi-Face ID</b></a><br/>
+      <a href="video_inference/realtime_multiface_recognition/README.md">
+        <img src="video_inference/realtime_multiface_recognition/assets/demo.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Interactive multi-face recognition</sub><br/>
+      <sub>Multiple Models</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/singlestream_peopletracking_yolo26/README.md"><b>Person Tracking</b></a><br/>
+      <a href="video_inference/singlestream_peopletracking_yolo26/README.md">
+        <img src="video_inference/singlestream_peopletracking_yolo26/assets/people_counting.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Person tracking + IDs using</sub><br/>
+      <sub>simple Kalman filters</sub><br/>
+      <sub>Model: YOLO26 (nano)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+  </tr>
+  <!-- new row -->
+  <tr>
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/intrusion_detection/README.md"><b>Intrusion Detection</b></a><br/>
+      <a href="video_inference/intrusion_detection/README.md">
+        <img src="video_inference/intrusion_detection/assets/intrusion.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>ROI intrusion alerts</sub><br/>
+      <sub>Models: Yolov8 &amp; ByteTrack</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/rtmpose_estimate/README.md"><b>Rtmpose Estimate</b></a><br/>
+      <a href="video_inference/rtmpose_estimate/README.md">
+        <img src="video_inference/rtmpose_estimate/assets/out.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Pose Estimate with tracking</sub><br/>
+      <sub>Models: Yolox &amp; Rtmpose</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/parking_management_yolov8/README.md"><b>Parking Management</b></a><br/>
+      <a href="video_inference/parking_management_yolov8/README.md">
+        <img src="video_inference/parking_management_yolov8/assets/parking_management.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Parking management system</sub><br/>
+      <sub>Models: Yolov8</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+    <!-- new cell -->
+    <td align="center" valign="top" width="25%">
+      <a href="video_inference/fire_smoke_detection_yolo11/README.md"><b>Fire &amp; Smoke Detection</b></a><br/>
+      <a href="video_inference/fire_smoke_detection_yolo11/README.md">
+        <img src="video_inference/fire_smoke_detection_yolo11/assets/preview.gif" style="height:165px; object-fit:cover;" />
+      </a><br/>
+      <sub>Real-time fire and smoke detection alerts</sub><br/>
+      <sub>Model: YOLO11 (Nano)</sub><br/>
+      <img alt="Python" src="https://img.shields.io/badge/Python-green" />
+      <img alt="Linux"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="20" height="20" />
+    </td>
+  </tr>
+</table>
+
 
 
 ---
